@@ -1,0 +1,96 @@
+
+
+// // function App() {
+// // // menentukan tipe data para 
+// // // menentukan tipe data untuk parameter a dan b, serta tipe data return function
+// //   const calculetNumber = (a: number, b: number): string  => {
+// //     return "Hasil Penjumlahan: " + (a + b);
+// //   };
+// //   return (
+// //     <div>
+// //       <h1>Hasil Penjumlahan: {calculetNumber(10, 10)}</h1>
+// //     </div>
+// //   );
+  
+// // }
+
+// // export default App
+
+
+// // // type Biodata = {
+// // //   nama: string;
+// // //   harga?: number;
+// // //   isMarried: boolean;
+// // //   favoriteFood: string[];
+// // // };
+
+// // function App() {
+// //   // // 1. Type annotation & inisialisasi variabel
+// //   // let nama: string = "budi";
+// //   // let harga: number = 10000;
+// //   // harga = 200000;
+
+// //   // let isMarried: boolean = false;
+// //   // isMarried = true; // Mengubah nilai tanpa me-redeklarasi variabel
+
+// //   // let favoriteFood: string[] = ["sate", "bakso", "mie ayam"];
+
+// //   // // 2. Pembuatan object sesuai tipe Biodata
+// //   // let biodata: Biodata = {
+// //   //   nama: "budi",
+// //   //   harga: 10000,
+// //   //   isMarried: false,
+// //   //   favoriteFood: ["sate", "bakso", "mie ayam"],
+// //   // };
+
+// //   // // 3. Logika/console.log ditaruh SEBELUM return
+// //   // console.log(harga * 2);
+
+// //   // // 4. Return JSX yang valid
+
+
+
+// function App() {
+// let nama: string = "fauzan";
+// let umur: number = 20;
+// let isOSIS: boolean = true;
+// let nilai: number | string = 70  ;
+
+// console.log(nama, umur, isOSIS, nilai);
+
+// let identitas: string | number = 1234;
+// identitas = "SISWA-XI-01";
+// console.log(identitas);
+
+// function tampilkanData(nama: string, umur: number, isOSIS: boolean): string {
+//     let statusOsis = isOSIS ? "bagian dari OSIS" : "bukan bagian dari OSIS";
+//     console.log(`Halo nama saya ${nama}, saya berumur ${umur} tahun. Saya ${statusOsis}`);
+//     return statusOsis;
+// }
+
+// tampilkanData(nama, umur, isOSIS);
+
+// function cekKelulusan(nilai: number): string   { 
+//   return nilai >= 75 ? "Lulus" : "Tidak Lulus";
+// }
+// console.log(`Status kelulusan: ${cekKelulusan(nilai)}`);
+
+//   return (
+//     <div>App</div>
+//   )
+// }
+
+// export default App
+
+
+
+// //   return (
+// //     // <div>
+// //     //   <h1>Nama: {nama}</h1>
+// //     //   <p>Status Menikah: {isMarried ? "Sudah" : "Belum"}</p>
+// //     //   <p>Makanan Favorit: {biodata.favoriteFood.join(", ")}</p>
+// //     // </div>
+// //   );
+// // }
+
+// // export default App;
