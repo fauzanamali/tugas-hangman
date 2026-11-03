@@ -5,7 +5,7 @@ import Keyboard from "./components/Keyboard";
 import words from "../wordList.json";
 
 function App() {
-  const [currentWord, setCurrentWord] = useState(() => {
+  const [currentWord] = useState(() => {
     return words[Math.floor(Math.random() * words.length)].toLowerCase();
   });
 
